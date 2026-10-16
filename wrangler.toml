@@ -2,6 +2,10 @@ name = "ai-worker-proxy"
 main = "src/index.ts"
 compatibility_date = "2026-09-15"
 
+[placement]
+mode = "smart"
+hints = ["wnam"]
+
 # Cloudflare AI binding (optional)
 [ai]
 binding = "AI"
